@@ -6,7 +6,7 @@ function myFunction(event) {
         input = ""
         document.getElementById("js-result").innerHTML=input;
     } else if (event.target.id=="arrow") {
-        input = input.slice(0,-1)
+        input = input.slice(0,-1);
         document.getElementById("js-result").innerHTML=input;
     }
     else { 
@@ -17,7 +17,7 @@ function myFunction(event) {
 };
 
 function calculate(input) {
-    answer=eval(input)
+    answer=eval(input);
     document.getElementById("js-result").innerHTML=answer;
 };
 
